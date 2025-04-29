@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kafka-producer-config
+data:
+  config.json: |
+    {
+      "kafka_servers": ["kafka-service.default.svc.cluster.local:9093"],
+      "topic": "test-topic"
+    }

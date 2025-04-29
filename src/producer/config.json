@@ -1,0 +1,5 @@
+{
+    "kafkaBroker": "kafka:9093", 
+    "kafkaTopic": "my-topic"      
+  }
+  
